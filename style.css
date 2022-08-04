@@ -1,0 +1,111 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+  }
+  body{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .topmenu{
+      background-color: #4D9AAD;
+      color: white;
+     display: flex;
+     justify-content: space-between;
+     width:auto;
+     padding:  0% 5%;
+     flex-wrap: wrap;
+   
+   }
+   nav{
+    margin-top: 2em;
+   }
+   nav a{
+       color: #ffffff;
+       margin-right: 2em;
+      
+       text-decoration: none;
+   }
+   .my-profile{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+      padding: 5%;
+      text-align: center;
+   }
+  
+   .my-profile h1{
+    color: #4D9AAD;
+   }
+   .my-profile p{
+    width: 33%;
+    margin-top: -1em;
+   }
+   .passport{
+     border-radius: 100%;
+      width: 200px;
+      height: 250px
+  
+   }
+   .flag{
+     width: 25px;
+     height: 10px;
+   }
+   .about{
+     background-color: #4D9AAD;
+     padding:3em 5em;
+     color: #ffffff;
+   }
+   .about2{
+     background-color: #4D9AAD;
+     padding: 3em 5em;
+     color: white;
+   }
+   .about3{
+     display: flex; 
+   
+   }
+   .service0{
+     color: #4D9AAD;
+  
+   }
+   .service-type{
+    padding: 5em 5em;
+   }
+   .service-type1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 15px;
+    text-align: center;
+  
+   }
+   .service1{
+    width: 30%;
+    background-color: #324A50;
+    color: #ffffff;
+    padding: 2em 0.5em;
+    border-radius: 0.5em;
+  
+   }
+  .footer{
+    background-color: #4D9AAD;
+    padding:3em 2em ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+  
+  }
+  .social-icon{
+    display: flex;
+  }
+  .social-icon img{
+    width: 20px;
+  }
+  .social-icon a{
+    margin-right: 0.5em;
+  }
+  
